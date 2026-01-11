@@ -1,6 +1,4 @@
 title: "Tech Blog"
 description: "主にJavaについて記載"
-theme: minimal
+theme: jekyll-theme-minimal
 timezone: Asia/Tokyo
-plugins:
-  - jekyll-feed
