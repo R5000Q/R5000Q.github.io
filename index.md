@@ -8,11 +8,11 @@ title: Home
 
 ## Posts
 <ul>
-{% raw %}{% for post in site.posts %}{% endraw %}
+{% for post in site.posts %}
   <li>
-    <a href="{% raw %}{{ post.url | relative_url }}{% endraw %}">
-      {% raw %}{{ post.date | date: "%Y-%m-%d" }}{% endraw %} - {% raw %}{{ post.title }}{% endraw %}
+    <a href="{{ post.url | relative_url }}">
+      {{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}
     </a>
   </li>
-{% raw %}{% endfor %}{% endraw %}
+{% endfor %}
 </ul>
