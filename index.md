@@ -6,6 +6,7 @@ title: Home
 # Tech Blog
 このページはテスト用のトップページです。下に記事一覧を表示します。
 
+投稿件数: {{ site.posts | size }}
 ## Posts
 <ul>
 {% for post in site.posts %}
