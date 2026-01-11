@@ -5,7 +5,7 @@ title: Home
 
 # Tech Blog
 このページはテスト用のトップページです。下に記事一覧を表示します。
-
+Jekyll version: {{ jekyll.version }}
 投稿件数: {{ site.posts | size }}
 ## Posts
 <ul>
